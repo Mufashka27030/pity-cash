@@ -12,7 +12,16 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/AllLayout/login', function () {
+    return view('AllLayout/login');
 });
+Route::get('/AllLayout/contentpemasukan', function () {
+    return view('AllLayout/contentpemasukan');
+});
+Route::get('/AllLayout/content', function () {
+    return view('AllLayout/content');
+});
+
